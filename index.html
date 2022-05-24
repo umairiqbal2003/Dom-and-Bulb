@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawascript Dom Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1 id="heading">Hello My name is <i> Umair Iqbal</i></h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat ullam consectetur eum recusandae inventore, obcaecati at enim asperiores? Modi.</p>
+    </div>
+    <button onclick="bgColors()" > BG Color </button>
+    <button onclick="textColors()"> Text Color</button>
+    
+    <div id="container2">
+    <h2 id="heading2">Hello My name is <i> Umair Iqbal</i></h2>
+    <p id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ducimus perspiciatis asperiores pariatur minima quasi quaerat deleniti, atque ut? Exercitationem.</p>
+
+</div>
+    
+    <button onclick="bgColors2()" > BG Color </button>
+    <button onclick="textColors2()"> Text Color</button>
+
+    <br> <br>
+
+    <img  id="img" width="400px" height="300px" src="./images/umair.jpg" > <br> <br>
+
+    <button onclick="imgHandler('show')"> Show Image</button>
+    <button onclick="imgHandler('hide')">Hide Image</button>
+    <button onclick="imgHandler('small')">Small Image</button>
+    <button onclick="imgHandler('large')">Large Image</button>
+  <br>
+  <br>
+
+ <div id="containers">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempora inventore labore fugiat pariatur rem nam necessitatibus ex culpa ipsa.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempora inventore labore fugiat pariatur rem nam necessitatibus ex culpa ipsa.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempora inventore labore fugiat pariatur rem nam necessitatibus ex culpa ipsa.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempora inventore labore fugiat pariatur rem nam necessitatibus ex culpa ipsa.</p>
+</div>
+     <button onclick="paraChange()">Change Color</button>
+
+     <br>
+     <br>
+    
+   <div style="margin:0 auto; width:50% ">
+    <img src="bulbon.jpg" onmouseout="imgChange('off' , this)" onmouseover="imgChange('on' , this)">
+    </div>  
+
+</body>
+<script src="app.js"></script>
+</html>
